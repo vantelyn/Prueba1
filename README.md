@@ -58,12 +58,14 @@ https://git-scm.com/download/linux
 
 ## 2. Primeros pasos
 ### &ensp;2.1. Windows vs Linux
-* En **Linux** git se utiliza mediante una serie de instrucciones que se ejecutan mediante la consola, todas de ellas empezando por git:
-```
-$ git help
-```
+* En **Linux** Git se utiliza mediante una serie de instrucciones que se ejecutan mediante la consola, todas de ellas empezando por git:
+![Foto Git Bash Windows](https://github.com/vantelyn/Prueba1/blob/master/cmdLinux.jpg "Linux")
+
 * En **Windows** Git se puede utilizar tanto mediante su interfaz gráfica -**Git GUI**- cómo mediante la línea de commandos -**Git CMD/Git Bash**-. Estas opciones son accesibles bien desde el buscador de Windows o haciendo click derecho en el escritorio o la carpeta de trabajo.  
-A efectos de esta guía vamos a utilizar Git Bash dado que emula la consola de comandos de Linux.
+&ensp;  
+A efectos de esta guía vamos a utilizar Git Bash dado que emula la consola de comandos de Linux:
+![Foto Git Bash Windows](https://github.com/vantelyn/Prueba1/blob/master/bashWindows.jpg "Windows")
+
 &ensp;
 ### &ensp;2.2. Establecer credenciales
 
