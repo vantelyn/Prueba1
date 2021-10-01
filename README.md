@@ -69,7 +69,8 @@ A efectos de esta guía vamos a utilizar Git Bash dado que emula la consola de c
 ![Foto Git Bash Windows](https://github.com/vantelyn/Prueba1/blob/master/bashWindows.jpg "Windows")
 
 ### &ensp;2.2. Registro de credenciales
-Antes de poder hacer uso de las funciones de Git es obligatorio configurar las credenciales con las que vamos a firmar nuestro trabajo. Para ello vamos a hacer uso de las siguientes instrucciones:
+&ensp;Antes de poder hacer uso de las funciones de Git es obligatorio configurar las credenciales con las que vamos a firmar nuestro trabajo.  
+&ensp;Para ello vamos a hacer uso de las siguientes instrucciones:
 * **Registrar nombre:**
 ```
 $ git config --global user.name "John Doe"
@@ -81,8 +82,9 @@ $ git config --global user.email johndoe@example.com
 &ensp;  
 
 ## 3. Uso de repositorios
-### &emsp;3.1. Crear repositorio local
-La manera más simple de crear un repositorio es transformando una carpeta de archivos local en un repositorio de trabajo. Si dispones de un proyecto cuyo control de versiones no está implementado aún y quieres empezar a controlarlo con Git, deberás seguir los siguientes pasos:
+### &ensp;3.1. Crear repositorio local
+&ensp;La manera más simple de crear un repositorio es transformando una carpeta de archivos local en un repositorio de trabajo. Si dispones &ensp;de un proyecto cuyo control de versiones no está implementado aún y quieres empezar a controlarlo con Git, deberás seguir los  
+&ensp;siguientes pasos:
 * **Desplazar el terminal hasta carpeta de trabajo:**
 
 &emsp;En Linux
@@ -101,17 +103,20 @@ $ cd C:/Users/user/my_project
 ```
 $ git init
 ```
-Esta instrucción crearía un nuevo subdirectorio oculto nombrado `.git` que contiene todos los archivos necesarios para el funcionamiento del repositorio.
-### &emsp;3.2. Clonar repositorio remoto
-Si por lo contrario quieres trabajar con un repositorio ya existente, como por ejemplo un proyecto de grupo en el que estás participando, la instrucción a utilizar sería `git clone` seguido de la `<url>` donde se ubica dicho proyecto.
+&ensp;Esta instrucción crearía un nuevo subdirectorio oculto nombrado `.git` que contiene todos los archivos necesarios para el  
+&ensp;funcionamiento del repositorio.
+### &ensp;3.2. Clonar repositorio remoto
+&ensp;Si por lo contrario quieres trabajar con un repositorio ya existente -como por ejemplo un proyecto de grupo en el que estás  
+&ensp;participando- la instrucción a utilizar sería `git clone` seguido de la `<url>` donde se ubica dicho proyecto.
 
 &emsp;Por ejemplo:
 ```
 $ git clone https://github.com/libgit2/libgit2 [nombreProyecto]
 ```
-Esta instrucción crearía -dentro del directorio activo del usuario- una nueva carpeta con el nombre del proyecto, la cual contendría una copia de todos los archivos almacenados en el servidor -incluídas sus versiones anteriores-.
+&ensp;Esta instrucción crearía -dentro del directorio activo del usuario- una nueva carpeta con el nombre del proyecto, la cual contendría una  
+&ensp;copia de todos los archivos almacenados en el servidor -incluídas sus versiones anteriores-.
 
-### &emsp;3.3. Inicializar el control de versiones
+### &ensp;3.3. Inicializar el control de versiones
 
 &ensp;  
 ## 4. Iniciación a Github
