@@ -85,30 +85,31 @@ $ git config --global user.email johndoe@example.com
 La manera más simple de crear un repositorio es transformando una carpeta de archivos local en un repositorio de trabajo. Si dispones de un proyecto cuyo control de versiones no está implementado aún y quieres empezar a controlarlo con Git, deberás seguir los siguientes pasos:
 * **Desplazar el terminal hasta carpeta de trabajo:**
 
-&ensp;En Linux
+&emsp;En Linux
 ```
 $ cd /home/user/my_project
 ```
-&ensp;En Windows
+&emsp;En Windows
 ```
 $ cd C:/Users/user/my_project
 ```
-&ensp;Esto también se puede hacer abriendo directamente el terminal desde la misma carpeta.
+&emsp;Esto también se puede hacer abriendo directamente el terminal desde la misma carpeta.
 
 * **Inicializar Git**
 
-&ensp;Una vez situados dentro del directorio del proyecto podemos inicializar el control de versiones Git mediante la siguiente instrucción:
+&emsp;Una vez situados dentro del directorio del proyecto podemos inicializar el control de versiones Git mediante la siguiente instrucción:
 ```
 $ git init
 ```
+Esta instrucción crearía un nuevo subdirectorio oculto nombrado `.git` que contiene todos los archivos necesarios para el funcionamiento del repositorio.
 ### &emsp;3.2. Clonar repositorio remoto
 Si por lo contrario quieres trabajar con un repositorio ya existente, como por ejemplo un proyecto de grupo en el que estás participando, la instrucción a utilizar sería `git clone` seguido de la `<url>` donde se ubica dicho proyecto.
 
-Por ejemplo:
+&emsp;Por ejemplo:
 ```
 $ git clone https://github.com/libgit2/libgit2 [nombreProyecto]
 ```
-Esta instrucción crearía una nueva carpeta con el nombre del proyecto la cual contendría todos los archivos que el servidor almacena del repositorio en cuestión -incluídas sus versiones anteriores-, dentro del directorio activo del usuario.
+Esta instrucción crearía -dentro del directorio activo del usuario- una nueva carpeta con el nombre del proyecto, la cual contendría una copia de todos los archivos almacenados en el servidor -incluídas sus versiones anteriores-.
 
 ### &emsp;3.3. Inicializar el control de versiones
 
