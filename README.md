@@ -104,10 +104,8 @@ $ git init
 ```
 
 ### &ensp;3.2. Clonar repositorio remoto
-&ensp;Si se desea trabajar con un repositorio ya existente -como por ejemplo un proyecto de grupo- la instrucción a utilizar sería `git clone`  
-&ensp;seguido de la `<url>` donde se ubica dicho proyecto.
-
-&emsp;Ejemplo:
+&emsp;Si se desea trabajar con un repositorio ya existente -como por ejemplo un proyecto de grupo- la instrucción a utilizar sería `git clone`  
+&emsp;seguido de la `<url>` donde se ubica dicho proyecto:
 ```
 $ git clone https://github.com/libgit2/libgit2
 ```
@@ -115,8 +113,7 @@ $ git clone https://github.com/libgit2/libgit2
 ### &ensp;3.3. Inicializar el control de versiones
 * **Puesta en seguimiento:**
   
-&emsp;Para inicializar el control de versiones de un archivo éste se deberá primero añadir a la lista de seguimiento. Para ello vamos a utilizar  
-&emsp;la instrucción `git add` seguida del `nombre del archivo`:
+&emsp;Para inicializar el control de versiones de un archivo éste se deberá primero ser añadido a la lista de seguimiento:
 ```
 $ git add LICENSE
 ```
