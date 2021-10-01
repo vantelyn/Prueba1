@@ -83,8 +83,7 @@ $ git config --global user.email johndoe@example.com
 
 ## 3. Uso de repositorios
 ### &ensp;3.1. Crear repositorio local
-&ensp;La manera más simple de crear un repositorio es transformando una carpeta de archivos local en un repositorio de trabajo. Si dispones &ensp;de un proyecto cuyo control de versiones no está implementado aún y quieres empezar a controlarlo con Git, deberás seguir los  
-&ensp;siguientes pasos:
+
 * **Desplazar el terminal hasta carpeta de trabajo:**
 
 &emsp;En Linux
@@ -103,20 +102,34 @@ $ cd C:/Users/user/my_project
 ```
 $ git init
 ```
-&ensp;Esta instrucción crearía un nuevo subdirectorio oculto nombrado `.git` que contiene todos los archivos necesarios para el  
-&ensp;funcionamiento del repositorio.
-### &ensp;3.2. Clonar repositorio remoto
-&ensp;Si por lo contrario quieres trabajar con un repositorio ya existente -como por ejemplo un proyecto de grupo en el que estás  
-&ensp;participando- la instrucción a utilizar sería `git clone` seguido de la `<url>` donde se ubica dicho proyecto.
 
-&emsp;Por ejemplo:
+### &ensp;3.2. Clonar repositorio remoto
+&ensp;Si se desea trabajar con un repositorio ya existente -como por ejemplo un proyecto de grupo- la instrucción a utilizar sería `git clone`  
+&ensp;seguido de la `<url>` donde se ubica dicho proyecto.
+
+&emsp;Ejemplo:
 ```
-$ git clone https://github.com/libgit2/libgit2 [nombreProyecto]
+$ git clone https://github.com/libgit2/libgit2
 ```
-&ensp;Esta instrucción crearía -dentro del directorio activo del usuario- una nueva carpeta con el nombre del proyecto, la cual contendría una  
-&ensp;copia de todos los archivos almacenados en el servidor -incluídas sus versiones anteriores-.
 
 ### &ensp;3.3. Inicializar el control de versiones
+* **Puesta en seguimiento:**
+  
+&emsp;Para inicializar el control de versiones de un archivo éste se deberá primero añadir a la lista de seguimiento. Para ello vamos a utilizar  
+&emsp;la instrucción `git add` seguida del `nombre del archivo`:
+```
+$ git add LICENSE
+```
+&emsp;También es posible añadir todos los archivos presentes en el directorio utilizando la instrucción:
+```
+$ git add .
+```
+* **Guardado:**
+  
+&emsp;Finalmente guardamos los cambios realizados con la instrucción `git commit` seguida de la clausula `-m` y el nombre del guardado:
+```
+$ git commit -m 'Initial project version'
+```
 
 &ensp;  
 ## 4. Iniciación a Github
