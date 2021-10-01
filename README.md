@@ -80,18 +80,18 @@ $ git config --global user.email johndoe@example.com
 &ensp;  
 
 ## 3. Uso de repositorios
-### &emsp;4.1. Repositorio local
-### &emsp;4.2. Repositorio en línea
+### &emsp;3.1. Repositorio local
+### &emsp;3.2. Repositorio en línea
 &ensp;  
 ## 4. Iniciación a Github
-### &emsp;5.1. Crear una nueva cuenta
-### &emsp;5.2. Generación Token de autentificación
-### &emsp;5.3. Crear repositorio Github
-### &emsp;5.4. Enlazar repositorios
+### &emsp;4.1. Crear una nueva cuenta
+### &emsp;4.2. Generación Token de autentificación
+### &emsp;4.3. Crear repositorio Github
+### &emsp;4.4. Enlazar repositorios
 &ensp;  
 ## 5. Proyectos de grupo
-### &emsp;6.1. Cómo invitar a un colaborador
-### &emsp;6.2. Unirse a un proyecto existente
-### &emsp;6.3. Resolución de conflictos
+### &emsp;5.1. Cómo invitar a un colaborador
+### &emsp;5.2. Unirse a un proyecto existente
+### &emsp;5.3. Resolución de conflictos
 &ensp;  
 ## 6. Guía completa de instrucciones
