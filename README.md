@@ -9,8 +9,9 @@
     1. Windows vs Linux
     2. Registro de credenciales
 3. **Uso de repositorios**
-    1. Local
-    1. Online
+    1. Crear repositorio local
+    2. Clonar repositorio remoto
+    3. Inicializar el control de versiones
 4. **Iniciación a Github**
     1. Crear una nueva cuenta
     1. Generación Token de autentificación
@@ -80,8 +81,37 @@ $ git config --global user.email johndoe@example.com
 &ensp;  
 
 ## 3. Uso de repositorios
-### &emsp;3.1. Repositorio local
-### &emsp;3.2. Repositorio en línea
+### &emsp;3.1. Crear repositorio local
+La manera más simple de crear un repositorio es transformando una carpeta de archivos local en un repositorio de trabajo. Si dispones de un proyecto cuyo control de versiones no está implementado aún y quieres empezar a controlarlo con Git, deberás seguir los siguientes pasos:
+* **Desplazar el terminal hasta carpeta de trabajo:**
+
+&ensp;En Linux
+```
+$ cd /home/user/my_project
+```
+&ensp;En Windows
+```
+$ cd C:/Users/user/my_project
+```
+&ensp;Esto también se puede hacer abriendo directamente el terminal desde la misma carpeta.
+
+* **Inicializar Git**
+
+&ensp;Una vez situados dentro del directorio del proyecto podemos inicializar el control de versiones Git mediante la siguiente instrucción:
+```
+$ git init
+```
+### &emsp;3.2. Clonar repositorio remoto
+Si por lo contrario quieres trabajar con un repositorio ya existente, como por ejemplo un proyecto de grupo en el que estás participando, la instrucción a utilizar sería `git clone` seguido de la `<url>` donde se ubica dicho proyecto.
+
+Por ejemplo:
+```
+$ git clone https://github.com/libgit2/libgit2 [nombreProyecto]
+```
+Esta instrucción crearía una nueva carpeta con el nombre del proyecto la cual contendría todos los archivos que el servidor almacena del repositorio en cuestión -incluídas sus versiones anteriores-, dentro del directorio activo del usuario.
+
+### &emsp;3.3. Inicializar el control de versiones
+
 &ensp;  
 ## 4. Iniciación a Github
 ### &emsp;4.1. Crear una nueva cuenta
