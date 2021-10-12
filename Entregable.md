@@ -1,9 +1,8 @@
 # Ejercicio 1: Bash Scripting
 
-
 &ensp;
 ## 1. CREAR UNA CARPETA PARA REALIZAR EL EJERCICIO
-
+&nbsp;
   ### 1.1 Abrimos terminal
 
   ### 1.2 Navegamos al área de trabajo
@@ -26,7 +25,7 @@
 &ensp;  
 
 ## 2. CREAR UN SCRIPT DE BASH QUE CREE UNA CAREPTA EN LA QUE SE INCLUYA UNA [PLANTILLA WEB RESPONSIVE](http://getskeleton.com/)  
-
+&ensp;
    ### 2.1 Creamos un archivo .sh (archivo Bash)
 
 ```
@@ -89,3 +88,4 @@
 &ensp;        
 
 ## 3. Ejecutar el script y comprobar que funciona
+&ensp;
