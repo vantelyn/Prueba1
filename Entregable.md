@@ -3,7 +3,7 @@
 &ensp;
 ## 1. CREAR UNA CARPETA PARA REALIZAR EL EJERCICIO
 &nbsp;
-  ### 1.1 Abrimos terminal
+  ### 1.1 Abrimos terminal de Linux
 
   ### 1.2 Navegamos al área de trabajo
 
