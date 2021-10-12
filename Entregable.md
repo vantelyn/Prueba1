@@ -1,10 +1,8 @@
 # Ejercicio 1: Bash Scripting
 
 
-
-## 1. Crea una carpeta para realizar el ejercicio
-
-   
+&ensp;
+## 1. CREAR UNA CARPETA PARA REALIZAR EL EJERCICIO
 
   ### 1.1 Abrimos terminal
 
@@ -25,36 +23,26 @@
 ```
    cd Ejercicio/
 ```
+&ensp;  
 
-
-
-## 2. Crea un script de bash que cree una carpeta (con el nombre que se le pasa al script como argumento) en la que incluya una plantilla web responsive (<http://getskeleton.com/>)
-
-   
+## 2. CREAR UN SCRIPT DE BASH QUE CREE UNA CAREPTA EN LA QUE SE INCLUYA UNA [PLANTILLA WEB RESPONSIVE](http://getskeleton.com/)  
 
    ### 2.1 Creamos un archivo .sh (archivo Bash)
 
 ```
    touch script.sh
 ```
-
-      
-
    ### 2.2 Abrimos el archivo con el editor de texto *Gedit* como proceso hijo
 
 ```
    gedit script.sh &
 ```
 
-      
-
    ### 2.3 Dentro del editor, en la primera línea declaramos el archivo como script de *Bash* mediante la siguiente instrucción:
 
 ```bash
    #!/bin/bash
 ```
-
-      
 
    ### 2.4 Añadimos una declaración *if* para comprobar si el usuario ha introducido el nombre de la carpeta como argumento de entrada:
 
@@ -98,7 +86,6 @@
       		echo "Nombre de la carpeta no especificado";
       fi
 ```
-
-      
+&ensp;        
 
 ## 3. Ejecutar el script y comprobar que funciona
